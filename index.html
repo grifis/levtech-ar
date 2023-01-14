@@ -22,13 +22,13 @@
       <!-- マーカーを登録（プリセットされている「hiro」マーカー） -->
       <a-marker preset="hiro">
         <!-- マーカーの場所に箱を置く（見やすいようにワイヤーフレーム表示） -->
-        <!-- <a-box
+        <a-box
           position="0 0.5 0"
           width="0.5"
           height="0.5"
           depth="0.5"
           color="red"
-        ></a-box> -->
+        ></a-box>
         <a-entity>
           <a-entity gltf-model="#model" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0" animation-mixer>
           <a-animation  attribute="rotation" to="0 360 0" dur="7000" repeat="indefinite" easing="linear"></a-animation>
